@@ -4,6 +4,8 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 1rem;
+    overflow-x: hidden;
+    height: -webkit-fill-available;
 }
 
 
@@ -11,6 +13,7 @@ body {
     overflow-x: hidden;
     background-color: getColor(bg);
     transition: all .3s ease-in-out;
+    height: -webkit-fill-available;
 }
 
 
