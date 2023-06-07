@@ -9,18 +9,18 @@
   top: 0;
   z-index: 300;
   width: 40vw;
-  height: 101dvh;
+  height: 100svh;
   background-color: getColor(sidebar);
   transform: translateX(-200%) translateZ(-300px) rotateY(90deg);
   transition: $transition;
 
 
   @include respond (lg){
-    width: 45vw;
+    width: 45svw;
   }
 
   @include respond (md){
-    width: 55vw;
+    width: 55svw;
   }
 
 
