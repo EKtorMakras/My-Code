@@ -12,6 +12,7 @@ Welcome to the TechBees project! TechBees is a fictional tech agency showcasing 
 - *Scroll Animations*: Scroll animations have been incorporated to add an engaging and interactive touch to the user interface.
 
 
+
 ### **Getting Started**
 To run the TechBees project locally, follow these steps:
 
