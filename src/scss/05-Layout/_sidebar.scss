@@ -23,6 +23,10 @@
     width: 55dvw;
   }
 
+  @include respond (sm){
+    width: 65dvw;
+  }
+
 
   &.open {
     transform: translateX(0) translateZ(0) rotateY(0);

@@ -6,6 +6,7 @@
 
   &__gallery {
     @include responsive-grid(40rem, 4rem);
+    grid-auto-rows: 1fr;
   }
 }
 
@@ -13,7 +14,8 @@
 
 .project {
   position: relative;
-
+  min-height: 30rem;
+  max-height: 45rem;
 
   &:hover &__content {
     transform: scale(1);
@@ -22,6 +24,7 @@
 
   &__img {
     height: 100%;
+    width: 100%;
     border-radius: var(--radius-2);
   }
 

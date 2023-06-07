@@ -135,6 +135,10 @@
 
 .anchor-point {
     padding-block: 8rem;
+
+    @include respond(md) {
+        padding-block: 5rem;
+    }
 }
 
 //& ******* Visibility ******* //
