@@ -9,7 +9,7 @@
   top: 0;
   z-index: 300;
   width: 40vw;
-  height: 101vh;
+  height: 101dvh;
   background-color: getColor(sidebar);
   transform: translateX(-200%) translateZ(-300px) rotateY(90deg);
   transition: $transition;
