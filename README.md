@@ -1,8 +1,8 @@
-#**TechBees**
+# **TechBees**
 
 Welcome to the TechBees project! TechBees is a fictional tech agency showcasing a single-page website created using vanilla JavaScript and SCSS. This project demonstrates special attention to detail, adherence to best practices, code organization in a reusable and scalable manner, and the implementation of various extra features.
 
-###**Features**
+### **Features**
 *Attention to Detail*: Every aspect of the project has been meticulously designed and implemented to ensure a high-quality user experience.
 *Best Practices*: The project follows industry best practices for coding standards, performance optimization, and maintainability.
 *Code Splitting*: JavaScript and SCSS modules have been utilized to split the code into manageable and reusable parts, promoting code organization and maintainability.
