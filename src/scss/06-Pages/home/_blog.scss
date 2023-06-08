@@ -78,6 +78,7 @@
     font-size: fs(sm-2);
     margin-top: 1rem;
     color: getColor(text-light-2);
+    @include focus-state(color('primary.base'));
 
     &:hover {
       color: getColor(text-light);
