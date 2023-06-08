@@ -65,6 +65,10 @@
       color: getColor(slate-200);
       padding-inline: 20px;
 
+      @include respond (sm) {
+        font-size: fs(lg-1);
+      }
+
       &::after {
         width: 80%;
         left: 50%;
