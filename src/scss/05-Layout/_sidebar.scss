@@ -9,22 +9,22 @@
   top: 0;
   z-index: 300;
   width: 40vw;
-  height: 100dvh;
+  height: 100%;
   background-color: getColor(sidebar);
   transform: translateX(-200%) translateZ(-300px) rotateY(90deg);
   transition: $transition;
 
 
   @include respond (lg){
-    width: 45dvw;
+    width: 45vw;
   }
 
   @include respond (md){
-    width: 55dvw;
+    width: 55vw;
   }
 
   @include respond (sm){
-    width: 65dvw;
+    width: 65vw;
   }
 
 
@@ -92,6 +92,7 @@
 
   // Switcher
   &__switcher {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    flex: 0;
   }
 }
