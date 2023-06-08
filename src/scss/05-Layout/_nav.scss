@@ -49,6 +49,10 @@
     @include respond (xl) {
       width: 90%;
     }
+
+    @include respond (sm) {
+      padding: 1rem 3rem;
+    }
   }
 
 

@@ -3,4 +3,8 @@
 
 .logo {
   width: 20rem;
+
+  @include respond(sm) {
+    width: 17rem;
+  }
 }
