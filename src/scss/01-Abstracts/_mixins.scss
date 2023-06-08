@@ -1,6 +1,7 @@
 @use 'sass:list';
 @use 'variables' as *;
 @use 'themes' as *;
+@use 'media' as *;
 
 
 
@@ -246,10 +247,14 @@
         @extend %btn-standard-props;
         @include focus-state($bgColor);
 
-        padding: .7em 1.5em;
+        padding: .7em 1.7em;
         color: $textColor;
 
         font-size: fs(sm-2);
+
+        @include respond(md){
+            font-size: fs(sm-3);
+        }
 
 
         @if $type == normal {
