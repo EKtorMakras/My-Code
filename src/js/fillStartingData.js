@@ -149,7 +149,7 @@ function fillTeamMembersData() {
 function fillTestimonialsData() {
   dom.testimonialsWrapper.innerHTML = testimonials.map(testimonial => {
     return `
-      <div class="testimonial" data-aos="fade" data-aos-delay="600">
+      <div class="testimonial" data-aos="fade" data-aos-delay="400">
         <span class="testimonial__icon">
           <i class="fas fa-quote-right"></i>
         </span>
